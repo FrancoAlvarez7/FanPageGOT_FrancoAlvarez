@@ -1,34 +1,46 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capítulos de GOT</title>
+    <title>Mejores Capítulos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="light-mode">
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="personajes.html">PERSONAJES</a></li>
-                <li><a href="capitulos.html">CAPÍTULOS</a></li>
-            </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <nav class="sidebar-menu">
+            <a href="index.html">Inicio</a>
+            <a href="capitulos.html">Capítulos</a>
+            <a href="personajes.html">Personajes</a>
         </nav>
-        <h1>Primera temporada:</h1>
+        <button class="theme-toggle" onclick="toggleTheme()">Modo Oscuro</button>
     </header>
+
     <main>
-        <h2>Capítulo 1 – “Winter Is Coming”</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NE-2Uu_9CJg?si=HHETYVlnHnlzUDRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>En el primer capítulo de Game of Thrones, la familia Stark recibe la visita del rey Robert Baratheon, quien pide a Eddard Stark que sea su Mano.</p>
-        <h2>Capítulo 2 – “The Kingsroad”</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nJ-P4ynmqGw?si=NCkmtcDxteTUKk5p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>En el segundo, Jon Snow parte al Muro y Tyrion Lannister decide acompañarlo, mientras Bran lucha por su vida tras caer misteriosamente.</p>
-        <h2>Capítulo 3 – “Lord Snow”</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/W7BOtie_VmQ?si=VLTRphOB7TCxXV1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>En el tercero, Daenerys Targaryen comienza a adaptarse a su matrimonio con Khal Drogo y Ned Stark viaja a Desembarco del Rey para asumir su nuevo cargo.</p>
+        <section class="content-page">
+            <h1>Capítulos</h1>
+            <h2>Capítulo 1 – “Winter Is Coming”</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NE-2Uu_9CJg?si=HHETYVlnHnlzUDRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>En el primer capítulo de Game of Thrones, la familia Stark recibe la visita del rey Robert Baratheon, quien pide a Eddard Stark que sea su Mano.</p>
+            <h2>Capítulo 2 – “The Kingsroad”</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nJ-P4ynmqGw?si=NCkmtcDxteTUKk5p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>En el segundo, Jon Snow parte al Muro y Tyrion Lannister decide acompañarlo, mientras Bran lucha por su vida tras caer misteriosamente.</p>
+            <h2>Capítulo 3 – “Lord Snow”</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W7BOtie_VmQ?si=VLTRphOB7TCxXV1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>En el tercero, Daenerys Targaryen comienza a adaptarse a su matrimonio con Khal Drogo y Ned Stark viaja a Desembarco del Rey para asumir su nuevo cargo.</p>
     </main>
+        </section>
+    </main>
+
     <footer>
-        <h3>Copyright</h3>
+        <p>&copy; 2023 Mi Página Simple</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

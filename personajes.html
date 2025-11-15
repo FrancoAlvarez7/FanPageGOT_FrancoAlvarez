@@ -1,29 +1,40 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personajes GOT</title>
+    <title>Mis personajes favoritos de GOT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="light-mode">
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="personajes.html">PERSONAJES</a></li>
-                <li><a href="capitulos.html">CAPÍTULOS</a></li>
-            </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <nav class="sidebar-menu">
+            <a href="index.html">Inicio</a>
+            <a href="capitulos.html">Capítulos</a>
+            <a href="personajes.html">Personajes</a>
         </nav>
-        <h1>Mis personajes favoritos de GOT</h1>
+        <button class="theme-toggle" onclick="toggleTheme()">Modo Oscuro</button>
     </header>
+
     <main>
-        <img src="https://pm1.aminoapps.com/6740/5e214704391b13697057500b24317fa800824cc1v2_hq.jpg" alt="tyrion lannister">
-        <p>tyrion un genio</p>
-        <img src="https://i.redd.it/9imjrc9ho41e1.jpeg" alt="arya stark">
-        <p>arya lejos la mejor</p>
+        <section class="content-page">
+            <h1>Contenido de la Personajes</h1>
+            <img src="https://pm1.aminoapps.com/6740/5e214704391b13697057500b24317fa800824cc1v2_hq.jpg" alt="tyrion lannister" class="img-fluida">
+            <p>tyrion un genio</p>
+            <img src="https://i.redd.it/9imjrc9ho41e1.jpeg" alt="arya stark" class="img-fluida">
+            <p>arya lejos la mejor</p>
+        </section>
     </main>
+
     <footer>
-        <h3>Copyright</h3>
+        <p>&copy; 2023 Mi Página Simple</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
