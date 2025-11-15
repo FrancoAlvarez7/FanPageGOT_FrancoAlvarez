@@ -81,7 +81,7 @@ body.dark-mode .hero-image-container .hero-image:hover {
 }
 
 body.dark-mode .contact-form button {
-    background-color: #4CAF50; /* Un verde oscuro para el botón */
+    background-color: #4CAF50;
     color: white;
 }
 
@@ -102,13 +102,13 @@ header {
 .menu-icon {
     font-size: 2rem;
     cursor: pointer;
-    z-index: 1001; /* Asegura que el icono esté por encima del menú */
+    z-index: 1001; 
 }
 
 .sidebar-menu {
     position: fixed;
     top: 0;
-    left: -250px; /* Oculto por defecto */
+    left: -250px; 
     width: 200px;
     height: 100%;
     padding-top: 60px;
@@ -242,11 +242,11 @@ main {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Para incluir el padding en el ancho */
+    box-sizing: border-box; 
 }
 
 .form-group textarea {
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
 }
 
 .contact-form button {
@@ -292,8 +292,20 @@ footer {
 }
 
 .img-fluida {
-    width: 30%; /* O el porcentaje que quieras, por ejemplo 30% */
+    width: 30%; 
     height: auto;
-    display: block; /* Para que ocupe su propia línea si es necesario */
-    margin: 0 auto; /* Opcional: para centrarla si su contenedor es más grande */
+    display: block; 
+    margin: 0 auto; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluida:hover {
+    transform: scale(1.02);
+}
+
+.video-responsive {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto; 
+    border: none;
 }
